@@ -21,7 +21,7 @@ endif
 
 " which key is used to toggle terminal
 if !exists('g:terminal_key')
-	let g:terminal_key = '<m-=>'
+	let g:terminal_key = '<leader>t'
 endif
 
 " initialize shell directory
